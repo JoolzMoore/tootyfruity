@@ -1,6 +1,9 @@
+
+[{
+  "fruit": "strawberries ",
+  "animal": "poodle"
+},
 {
-
-  "name": ["strawberries ", " apricots ", " watermelon"],
-
-  "animal": [" poodle ", "wombat ", "ardvark"]
-}
+  "fruit": "apricots",
+  "animal": "wombat"
+}]

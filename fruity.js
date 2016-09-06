@@ -10,9 +10,9 @@ function getGroceries () {
 
 function eatFruit (err, json) {
   if(!err) {
-    var fruit = JSON.parse(json)
-    // for (i = 0; i < fruit.length; i++)
-    console.log('eating ' + fruit.name[i] + 'fruit eaters ' + fruit.animal[i])
+    var pairs = JSON.parse(json)
+    for (i = 0; i < pairs.length; i++)
+    console.log('fruit ' + pairs[i].fruit + ' animal ' + pairs[i].animal)
   } else {
     console.log(err.message)
   }
@@ -28,7 +28,7 @@ function eatFruit (err, json) {
 // }
 
 function buyFruit (deliver) {
-  fs.readFile('fruit.json', deliver) {}
+  fs.readFile('fruit.json', deliver)
 }
 // function showAnimals (aminals) {
 //   fs.readFile('fruit.json', aminals)
