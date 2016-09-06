@@ -28,7 +28,7 @@ function eatFruit (err, json) {
 // }
 
 function buyFruit (deliver) {
-  fs.readFile('fruit.json', deliver)
+  fs.readFile('fruit.json', deliver) {}
 }
 // function showAnimals (aminals) {
 //   fs.readFile('fruit.json', aminals)
